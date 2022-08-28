@@ -1,0 +1,41 @@
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box h4{
+    color: navy;
+    margin: 20px 10px 10px 10px;
+    border-bottom: 1px dotted black;
+}
+.GEform{
+    padding: 40px 60px;
+}
+.GEform div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:6px 0px;
+}
+.submitbutton{
+    width: 100%;
+    margin-top: 10px;
+}
+.GEform .date{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 325px;
+}
+.GEform .select{
+    width: 325px;
+}
+.GEform input{
+    padding: 5px;
+    width: 315px;
+    
+}
+
+.date:focus{
+    outline: none;
+    border-bottom: 2px solid blue;
+}
